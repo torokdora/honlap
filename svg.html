@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>My first SVG</h1>
+
+<svg width="1000" height="700">
+    <circle cx="150" cy="250" r="40" stroke="green" stroke-width="1" fill="yellow" />
+    <circle id="c"
+    cx="50" cy="50" r="40" stroke="green" stroke-width="1" fill="yellow" />
+   
+
+</svg> 
+</body>
+
+<style>
+    svg{
+        border-radius: 5px;
+          box-shadow: 1px 1px 3px black;
+          border: solid black 8px;
+    }
+
+</style>
+
+<script>
+     x = 50
+    setInterval (v=> {
+        document.getElementById ("c").setAttribute ("cx",x) 
+        if (x<800) x += 1},10 )
+</script>
+
+</html>

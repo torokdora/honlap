@@ -96,3 +96,14 @@ nav ul {
 .orarend th {
     background-color: lightgray;
 }
+
+.svg {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+}
+
+.svg th {
+    background-color: lightgray;
+}
