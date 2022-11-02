@@ -118,3 +118,15 @@ nav ul {
 .github th {
     background-color: lightgray;
 }
+
+
+.amoba {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+}
+
+.amoba th {
+    background-color: lightgray;
+}
