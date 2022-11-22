@@ -135,9 +135,10 @@ nav ul {
 
 .hazifeladat {
     text-align: center;
-    margin-left: auto
+    margin-left: auto;
     margin-right: auto;
     margin-top: 30px;
+
 }
 .hazifeladat th {
     background-color: lightgray;
