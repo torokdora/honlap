@@ -1,0 +1,26 @@
+
+    <input type="number" value= "5" onchange="a = Number (this.value)">
+    <input type="number" value= "5" onchange="b = Number (this.value)">
+    <input type="button" value="Katt ide!" onclick="f()">
+    <hr>
+    Kerület: <div id="01"></div>
+    Terület: <div id="02"></div>
+</body>
+
+<style>
+    body {
+        background-color: darkgrey;
+        text-align: center;
+    }
+    div{
+        background-color: azure;
+        font-size: large;
+    }
+</style>
+<script>
+        a = 5, b= 5
+    function f() {
+        document.getElementById("01").innerHTML = 2* (a+b)
+        document.getElementById("02").innerHTML =  (a*b)
+    }
+</script>
