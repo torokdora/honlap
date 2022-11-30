@@ -2,15 +2,10 @@ body {
     background-color: whitesmoke;
 }
 
-.orarend th, .orarend td {
-    border: 0;
-    border-radius: 10px;
-    background-color: white;
-}
-
 table {
     border-radius: 5px;
-    border:  rgba(19, 207, 113, 0.5) 9px dotted;
+    border:  rgba(19, 207, 113, 0.5) 6px dotted;
+    
 
     
 }
@@ -18,7 +13,30 @@ table {
 td {
     border-radius: 5px;
     box-shadow: 1px 2px 2px black;
-    width: 50px;
+    width: 40px;
     height: 30px;
     text-align: center;
+    background-color: rgba(220, 220, 35, 0.892);
+    
+    
+}
+table.one {
+    float:left;
+    margin-left: 34%;
+    margin-top: 20%;
+    border-spacing: 10px;
+    text-decoration-style: wavy;
+    width: 15%;
+    height: 25%;
+   
+    
+}
+
+table.two {
+    margin-right: 34%;
+    margin-top: 20%;
+    float:right;
+    border-spacing: 10px;
+    width: 15%;
+    height: 25%;
 }
