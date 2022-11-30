@@ -101,6 +101,29 @@ body{
     
 }
 
+.icon1 {
+    width: 2.4em;
+    height: 2.0em;
+    stroke: white;
+    fill: transparent;
+    stroke-width: 1pt;
+    stroke-miterlimit: 10;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-dasharray: 400;
+}
+
+.icon2 {
+    width: 2.6em;
+    height: 2.6em;
+    stroke: white;
+    fill: white;
+    stroke-width: 1pt;
+    stroke-miterlimit: 10;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-dasharray: 400;
+}
 .menu__item.active .icon {
 
     animation: strok 1.5s reverse;
@@ -158,4 +181,10 @@ a {
     padding: 0.55em 0 0.85em;
     transition: transform var(--timeOut , var(--duration));
     
+}
+
+.keypad { 
+    fill: white;
+    size: 10px;
+
 }
