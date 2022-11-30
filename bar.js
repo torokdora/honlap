@@ -46,3 +46,4 @@ window.addEventListener("resize", () => {
   offsetMenuBorder(activeItem, menuBorder);
   menu.style.setProperty("--timeOut", "none");
 });
+
