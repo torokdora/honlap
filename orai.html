@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <title> Honlap</title>
+
+</head>
+
+<body>
+    <div id="x" onclick="f(this)"></div>
+</body>
+
+<style>
+    #x {
+        background-color: aqua;
+        width: 40px;
+        height: 40px;
+        position: fixed;
+        top: 60px;
+        left: 120px;
+        border-radius: 10px;
+        box-shadow: 1px 1px 5px inset black;
+        transition: 2s;
+    }
+</style>
+
+<script>
+     function f() {
+        document.getElementById("x")
+        .style.top = "200px"
+        l = g
+     }
+
+    function g() {
+        document.getElementById("x")
+        .style.top = "30px"
+        l = f
+    }
+
+    l = f
+    setInterval(l, 1000)
+</script>
