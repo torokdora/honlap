@@ -1,0 +1,13 @@
+body {
+    background-color: lightskyblue;
+
+}
+
+a { 
+    box-shadow: 1px 1px 3px black;
+    fill: rgb(145, 149, 154);
+    margin-bottom: 100px;
+    position: relative;
+    justify-content: center;
+
+}
